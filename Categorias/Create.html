@@ -1,0 +1,74 @@
+<html>
+
+     <head>
+
+        <title>Agregar Categoria</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="Create.css">
+        <link rel="stylesheet" href="fonts/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="Icono.png"/>
+        <style>input[type='submit']{height: 6%;}@media screen and (max-width:800px){h1{margin-bottom:16%;}}</style>
+
+     </head>
+
+               <body>
+
+
+                <div id="Contenedor">
+
+
+
+                    <div id="Izquierda">
+ 
+                        <img class="Arriba" src="Fuentes/Iconos/Create.svg">
+
+                    </div>
+
+
+
+
+                    <div id="Derecha">
+
+                
+                      <form name="Crear" method="POST" action="Create.php">
+
+                        <img id="Logo" src="Fuentes/Iconos/icon.png">
+
+
+
+                        <br><br><h1>Agregar</h1>
+
+
+                        <input type="text" name="txtsNombre" placeholder="Nombre" required><br><br><br>
+
+                        <textarea rows="4" name="txtsDescripcion" placeholder="Descripcion" required></textarea><br><br><br>
+
+                        
+                        
+
+
+                        <br><br><br>
+      
+
+
+                      <div class="d-none d-sm-block">
+                        <input type="submit" value="Agregar">
+                        <a href="Index.php" class="btn btn-primary ml-2" style="padding: 2%; width: 25%; height: 6%; border-radius: 32px; font-size: 82%; box-shadow: 0px 0px 0px 0px; border:none">Volver Atras</a>
+                      </div>
+
+
+                      <div class="d-block d-sm-none">
+                        <input type="submit" value="Agregar">
+                        <br><br><a href="Index.php" class="btn btn-primary" style="padding: 2%; padding-top:3%; width: 25%; height: 6%; border-radius: 32px; font-size: 52%; box-shadow: 0px 0px 0px 0px; border:none">Volver Atras</a>
+                      </div>
+
+
+                      </form>
+             
+                    </div>                
+                </div>                       
+               </body>
+
+</html>

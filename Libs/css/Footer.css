@@ -1,0 +1,37 @@
+.fp {
+ color: #7e7e7e; 
+ font-size: 1em;
+} 
+
+.af {
+ font-size: 1em;
+}
+
+.fc {
+ color: #7e7e7e; 
+ font-size: 1em;
+}
+
+.cf {
+ font-size: 1em;
+}
+
+@media screen and (max-width: 390px) {
+
+ .fp {
+  font-size: 0.8em !important;
+ } 
+
+ .af {
+  font-size: 0.8em !important;
+ }
+
+ .fc {
+  font-size: 0.8em;
+ }
+
+ .cf {
+  font-size: 1em;
+ }
+ 
+}

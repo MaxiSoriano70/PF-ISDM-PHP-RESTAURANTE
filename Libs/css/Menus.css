@@ -1,0 +1,117 @@
+.Container-Menus {
+ width: 100%;
+ min-height: 25vh;
+ border-bottom: 2px solid #dadada;
+ padding-bottom: 40px;
+}
+
+.Container-Menus .Title-Menus {
+ width: 100%;
+ text-align: center;
+ height: 14%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: #2a8ac7;
+}
+
+.Container-Menus .Content-Menus {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, 300px);
+ grid-template-rows: 1fr;
+ grid-gap: 1.2em;
+ justify-content: center;
+ margin: auto;
+ padding: 20px;
+ text-decoration: none;
+ color: #909090;
+}
+
+.Container-Menus .Menu-Individual {
+ max-width: 300px;
+ display: flex; 
+ height: 100px;
+ box-shadow: 0 0 0.4em rgba(0,0,0,0.2);
+ justify-content: space-between;
+ margin: auto;
+ align-items: center;
+ margin: 0;
+ padding: 0;
+ border-radius: 50px;
+ text-decoration: none;
+ color: #515151;
+ box-sizing: border-box;
+ transition: .4s ease-out;
+}
+
+.Container-Menus .Menu-Individual #img-Menu {
+ border-radius: 50%;
+ padding: 4px;
+}
+
+.Container-Menus .Menu-Individual .p-Menu {
+ margin:0;
+ padding: 10px;
+ height: 100%;
+ width: 68%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ border-left: 1px solid rgb(209, 209, 209);
+}
+
+.Container-Menus .Menu-Individual:hover {
+ 
+ color: #515151;
+ box-shadow: 0 0 0.8em rgba(0,0,0,0.2);
+ text-decoration: none;
+}
+
+.Container-Menus .Menu-Individual:focus {
+ background-color: #0a79ce;
+ color: #ffffff;
+ box-shadow: 0 0 0.8em rgba(11, 133, 255, 0.2);
+ transition: .4s ease-out;
+}
+
+.Container-Menus .Menu-Individual:focus .p-Menu {
+ border-left: 1px solid #fff;
+}
+
+@media screen and (max-width: 801px) {
+
+ .Container-Menus .Content-Menus {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 152px);
+  grid-template-rows: 1fr;
+  grid-gap: 0.6em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+ }
+
+ .Container-Menus .Title-Menus {
+  font-size: 25px;
+ }
+
+ .Container-Menus .Menu-Individual {
+  max-width: 152px;
+  height: 70px;
+ }
+
+ .Container-Menus .Menu-Individual img {
+  width: 50px;
+ }
+
+ .Container-Menus .Menu-Individual #img-Menu {
+  border-radius: 50%;
+  padding: 2px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+ }
+
+ .Container-Menus .Menu-Individual .p-Menu {
+  font-size: 13px;
+ }
+
+}

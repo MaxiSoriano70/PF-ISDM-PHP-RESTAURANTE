@@ -1,0 +1,8 @@
+Instalar el PHPMailer:
+Tambien usaremos el composer para instalar esta libreria para poder enviar mails de recuperacion de contraseña.
+*Una vez instalado: ingresar al CMD (consola de comandos de windows) e ingresar con el commando cd a la carpeta en donde se tiene el proyecto hasta la carpeta Mail.
+*Una vez que estes ubicado en la carpeta Mail que esta dentro del proyecto (con el CMD de windows) ingresar el siguiente codigo: composer
+*Ahora en la misma ventana CMD ingresar el siguiente codigo: composer require phpmailer/phpmailer
+Este comando tardara un rato en completarse. Esto descargara las librerias necesarias para que funcione la recuperacion de contraseñas a travez de E-Mails.
+*ES SUPER IMPORTANTE MODIFICAR LA RUTA DEL EMAIL CON TU IP O TU LOCALHOST EN LA LINEA 128 EN EL ARCHIVO "RecoverPassword"
+"http://TU IP O LOCALHOST AQUI/dbRestaurant/Acceso/Code.php"

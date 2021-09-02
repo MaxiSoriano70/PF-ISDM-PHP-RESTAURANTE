@@ -1,0 +1,434 @@
+.hed {
+ height: 130px;
+ display: flex;
+ color: #fff;
+ justify-content: center;
+ align-items: center;
+ border-bottom: 0.5px solid rgb(236, 236, 236);
+ background: rgb(51, 182, 206);
+}
+      
+.hed-cont {
+ display: flex;
+ justify-content: left;
+ align-items: center;
+ width:100%;
+ height: 80%;
+}
+      
+.boxin div {
+ position: absolute;
+ width: 60px;
+ height: 60px;
+ background-color: transparent;
+ border: 6px solid rgba(255,255,255,0.8);
+ z-index: 2;
+}
+      
+.boxin div:nth-child(1) {
+ top: 12%;
+ left: 8%;
+ animation: animate 10s linear infinite;
+}
+      
+.boxin div:nth-child(2) {
+ top: 17%;
+ left: 20%;
+ animation: animate 7s linear infinite;
+}
+      
+.boxin div:nth-child(3) {
+ top: 13%;
+ left: 35%;
+ animation: animate 9s linear infinite;
+}
+      
+.boxin div:nth-child(4) {
+ top: 17%;
+ left: 50%;
+ animation: animate 5s linear infinite;
+}
+      
+.boxin div:nth-child(5) {
+ top: 14%;
+ left: 70%;
+ animation: animate 6s linear infinite;
+}
+      
+.boxin div:nth-child(6) {
+ top: 11%;
+ left: 90%;
+ animation: animate 12s linear infinite;
+}
+      
+      
+@keyframes animate {
+      
+ 0% {
+  transform: scale(0) translateY(0) rotate(0);
+  opacity: 1;
+ }
+      
+ 100% {
+  transform: scale(1.3) translateY(-90px) rotate(360deg);
+  opacity: 0;
+ }
+      
+}
+         
+#atras {
+ width: 10%;
+ font-size: 43px;
+ color: #fff;
+ text-align: center;
+ z-index: 1;
+}
+
+.icb {
+ padding: 16px 18px;
+ border-radius: 50%;
+}
+
+.icb:hover {
+ background-color: rgba(232, 231, 231, 0.304);
+ cursor: pointer;
+}
+
+#atras:hover {
+ cursor: default;
+}
+
+#atras:focus .icb {
+ background-color: #ffffff;
+ color: rgb(51, 182, 206);
+ transition: .3s ease-out;
+ cursor: pointer;
+}
+      
+.Title-Admin {
+ font-size: 30px;
+ width: 100%;
+ position: absolute;
+ text-align: center;
+ z-index: 0;
+ margin-bottom: 0;
+}
+
+.Bod {
+ width: 100%;
+ min-height: 10%;
+ background: #ededed
+}
+
+.Cont-Tv {
+ width: 100%;
+ padding: 20px;
+ padding-left: 130px;
+ padding-right: 130px;
+}
+
+.Arrib {
+ width: 100%;
+ margin-bottom: 17px;
+}
+
+.tv {
+ font-size: 30px;
+ text-align: center;
+}
+
+.pv {
+ font-size: 15px;
+ text-align: center;
+}
+
+.Abaj {
+ width: 100%;
+ display: flex;
+ margin-top: 20px;
+}
+
+.Conten {
+ padding-top: 20px;
+ padding-bottom: 20px;
+ border-radius: 8px;
+ background: #ffffff;
+ margin-top: 40px;
+ margin-bottom: 40px;
+}
+
+.Det-Vnt {
+ width: 65%;
+ padding-left: 14px; 
+ padding-right: 14px; 
+ display: grid;
+ grid-template-columns: repeat(auto-fit, 375px);
+ grid-gap: 1.2em;
+ justify-content: center;
+ align-items: center;
+}
+
+.Produ {
+ height: 130px;
+ box-shadow: 0 0 0.4em rgba(0,0,0,0.2);
+ margin-top: 8px; 
+ margin-bottom: 8px; 
+ border-radius: 12px;
+ max-width: 375px;
+ display: flex; 
+ cursor: default;
+}
+
+.Produ:hover {
+ box-shadow: 0 0 0.6em rgba(0,0,0,0.3);
+ transition: ease .5s;
+}
+
+.ImIzq {
+ width: 100px;
+ display: block !important;
+ margin: auto;
+}
+
+.ImIzq .Im {
+ display: block !important;
+ margin: auto;
+ border-radius: 12px 0 0 12px; 
+}
+
+.Desc {
+ width: 100%;
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+ height: 100%;
+ padding: 0;
+}
+
+.InfoDer {
+ width: 100%;
+ text-align: center;
+ min-height: 10%;
+ display: block;
+}
+
+.Titdet {
+ text-transform: uppercase;
+ color: #7d7d7d;
+ font-size: 18px;
+ font-weight: bold;
+ padding-left: 5px;
+ padding-right: 5px;
+}
+
+.prxcan {
+ color: #565656;
+ font-size: 15px;
+ padding: 0 !important;
+ margin-bottom: 5px;
+}
+
+.detsub {
+ color: #1a7dc9;
+ font-weight: bold;
+ padding: 0 !important;
+}
+
+.Gral-Vnt {
+ width: 35%;
+ display: flex !important; 
+ justify-content: center !important;
+ padding: 8px;
+ padding-right: 18px;
+}
+
+.Cart-Der {
+ width: 100%;
+ height: 430px;
+}
+
+.Card-Detalle {
+ box-shadow: 0 0 0.3em rgba(0,0,0,0.2);
+ padding: 25px;
+}
+
+.Card-Detalle:hover {
+ box-shadow: 0 0 0.5em rgba(0,0,0,0.3);
+ transition: ease .5s;
+}
+   
+@media screen and (max-width:768px) {
+   
+ #atras {
+  font-size: 25px;
+  margin-left: 20px;
+ }
+      
+}
+      
+@media screen and (max-width:529px) { 
+      
+ .Title-Admin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+ }
+      
+ .Container-Administracion .Box { 
+  margin: 0;
+  margin-bottom: 20px;
+ }
+      
+ .boxin div {
+  width:30px;
+  height: 30px;
+ }
+   
+}
+
+@media screen and (max-width: 1495px) {
+ .Cont-Tv {
+  padding: 10px;
+ }   
+}
+
+
+@media screen and (min-width: 901px) and (max-width: 1295px) {
+
+ .Cont-Tv {
+  padding: 10px;
+ }   
+
+ .Det-Vnt {
+  padding-left: 5px; 
+  padding-right: 5px; 
+  grid-template-columns: repeat(auto-fit, 245px);
+  grid-gap: 0.7em;
+  margin-bottom: 20px;
+ } 
+
+ .Produ {
+  max-width: 245px;
+  box-shadow: 0 0 0.3em rgba(0,0,0,0.1);
+  margin-top: 8px; 
+  margin-bottom: 8px; 
+  display: block;
+  min-height: 310px;
+ }
+
+ .Desc {
+  width: 100%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+ }
+
+ .ImIzq {
+  width: 100%;
+ }
+
+ .ImIzq .Im {
+  border-radius: 10px 10px 0 0; 
+  height: 50%;
+  width: 100%;
+ }
+ 
+ .tv {
+  font-size: 24px;
+ }
+
+ .pv {
+  font-size: 14px;
+ }
+
+ .Titdet {
+  font-size: 13px;
+ }
+
+ .prxcan {
+  font-size: 11px;
+ }
+
+ .detsub {
+  font-size: 12px;
+ }
+ 
+
+}
+
+
+@media screen and (max-width: 900px) {
+
+ .Cont-Tv {
+  padding: 10px;
+ }   
+ 
+ .Abaj {
+  display: block;
+ }
+
+ .Det-Vnt {
+  width: 100%;
+  padding-left: 5px; 
+  padding-right: 5px; 
+  grid-template-columns: repeat(auto-fit, 160px);
+  grid-gap: 0.4em;
+  margin-bottom: 20px;
+ } 
+
+ .Produ {
+  max-width: 160px;
+  height: 140px;
+  box-shadow: 0 0 0.3em rgba(0,0,0,0.1);
+  margin-top: 8px; 
+  margin-bottom: 8px; 
+  display: block;
+  min-height: 250px;
+ }
+
+ .Desc {
+  width: 100%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+ }
+
+ .Gral-Vnt {
+  width: 100%;
+  padding: 8px;
+ }
+
+ .ImIzq {
+  width: 100%;
+ }
+
+ .ImIzq .Im {
+  border-radius: 10px 10px 0 0; 
+  height: 50%;
+  width: 100%;
+ }
+ 
+ .tv {
+  font-size: 20px;
+ }
+
+ .pv {
+  font-size: 12px;
+ }
+
+ .Titdet {
+  font-size: 13px;
+ }
+
+ .prxcan {
+  font-size: 11px;
+ }
+
+ .detsub {
+  font-size: 12px;
+ }
+ 
+}

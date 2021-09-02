@@ -1,0 +1,149 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+#Contenedora {
+ background: #2e9ce0;
+ width:100%;
+ height: 40%;
+ display: block;
+ justify-content: center;
+ align-items: center;
+}
+
+#Imagen {
+ height: 35%;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+#Buscador { 
+ height: 70px;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#Buscador .Search-box {
+ background: #fff;
+ width:92%;
+ height: 68%;
+ border-radius: 40px;
+ display: flex;
+ padding-left: 3%;
+}
+
+#Buscador .Search-box .search-txt {
+ width: 85%;
+ height: 100%;
+ border: none;
+ background: none;
+ outline: none;
+ color: rgb(97, 96, 96);
+ font-size: 14px;
+ border-right: 0.5px solid grey;
+}
+
+#Buscador .Search-box .search-btn {
+ color: #0471b1;
+ background: none;
+ width: 15%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: none;
+}
+
+#Buscador .Search-box .search-btn:focus { 
+ border: none;
+ outline: none;
+}
+
+#Carrito {
+ height: 30%;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+#btncarrito {
+ background: #2e9ce0;
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+}
+
+.ic-c {
+ font-size: 30px;
+}
+
+.cra {
+ border-radius: 100%;
+ margin-top: -25px;
+ width: 21px !important;
+ height: 21px !important;
+ display: flex !important;
+ justify-content: center !important;
+ align-items: center !important;
+ padding: 0;
+ transition: .3s ease-out;
+}
+
+#btncarrito:hover .cra {
+ margin-top: -40px; 
+ transition: .3s ease-out;
+}
+
+.csn {
+ height: 100% !important;
+ width: 100% !important;
+ padding: 0; 
+ margin: 0; 
+ display: flex !important;
+ justify-content: center !important;
+ align-items: center !important;
+ color: #ffffff;
+}
+
+@media screen and (min-width: 900px) {
+
+ #Contenedora {
+  width: 100%;
+  height: 100%;
+  display: flex;
+ }
+
+ #Imagen {
+  height: 100%;
+  width: 20%;
+ }
+   
+ #Buscador {
+  height: 80px;
+  width: 60%;
+ }
+
+ #Buscador .Search-box {
+  width:72%;
+ }
+
+ #Buscador .Search-box .search-txt {
+  font-size: 15px;
+ }
+
+ #Carrito {
+  height: 100%;
+  width: 20%;
+ }
+
+}

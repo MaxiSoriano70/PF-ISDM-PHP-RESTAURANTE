@@ -1,0 +1,49 @@
+input[type=number]::-webkit-outer-spin-button, 
+input[type=number]::-webkit-inner-spin-button {
+ -webkit-appearance: none;
+ margin: 0;
+} 
+
+input[type=number] {
+ -moz-appearance:textfield;
+}
+
+.close:focus {
+ outline: none !important;
+ border: none !important;
+}
+
+#formProductos {
+ margin: 0;
+ padding: 0;
+}
+
+.hmg {
+ height: 45px !important;
+}
+
+.mot {
+ width: 100%; 
+ position: absolute;
+ margin-bottom: 0;
+ text-align: center;
+ margin-top: -5px;
+}
+
+.modal-header {
+ padding: 1.9em 0rem !important;
+ padding-right: 1rem !important;
+}
+
+.select2-container--bootstrap4 .select2-selection--single {
+ height: 45px !important;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.select2-selection__rendered {
+ width: 100%;
+ padding: 0;
+ margin: 0;
+}

@@ -1,0 +1,11 @@
+PARA QUE FUNCIONEN LAS FACTURACIONES QUE SALEN EN PDF SE NECESITA LO SIGUIENTE:
+
+*descargar el composer: https://getcomposer.org/download/
+Cuando quieras instalarlo, selecciona para todos los usuarios, selecciona la ultima version de tu PHP y haz click en la checkbox para puedas seguir con la instalacion,
+no instales el proxy (la segunda checkbox dejala en blanco) y sigue con la instalacion.
+
+*Una vez instalado: ingresar al CMD (consola de comandos de windows) e ingresar con el commando cd a la carpeta en donde se tiene el proyecto hasta la seccion PDF.
+Una vez que estes ubicado en la carpeta PDF que esta dentro del proyecto (con el CMD de windows) ingresar el siguiente codigo: composer
+*Una vez ingresado eso y apretado enter, te deberia abrir el composer en la consola.
+*ahora en la misma ventana CMD ingresar el siguiente codigo: composer require mpdf/mpdf
+Este comando tardara un rato en completarse. esto descargara las librerias necesarias para que funcione la facturacion y los detalles en PDF.

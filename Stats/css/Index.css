@@ -1,0 +1,1063 @@
+.hed {
+ height: 130px;
+ display: flex;
+ color: #fff;
+ justify-content: center;
+ align-items: center;
+ border-bottom: 0.5px solid rgb(236, 236, 236);
+ background: rgb(51, 182, 206);
+ margin-bottom: 80px;
+}
+      
+.hed-cont {
+ display: flex;
+ justify-content: left;
+ align-items: center;
+ width:100%;
+ height: 80%;
+}
+      
+.boxin div {
+ position: absolute;
+ width: 60px;
+ height: 60px;
+ background-color: transparent;
+ border: 6px solid rgba(255,255,255,0.8);
+ z-index: 2;
+}
+      
+.boxin div:nth-child(1) {
+ top: 12%;
+ left: 8%;
+ animation: animate 10s linear infinite;
+}
+      
+.boxin div:nth-child(2) {
+ top: 17%;
+ left: 20%;
+ animation: animate 7s linear infinite;
+}
+      
+.boxin div:nth-child(3) {
+ top: 13%;
+ left: 35%;
+ animation: animate 9s linear infinite;
+}
+      
+.boxin div:nth-child(4) {
+ top: 17%;
+ left: 50%;
+ animation: animate 5s linear infinite;
+}
+      
+.boxin div:nth-child(5) {
+ top: 14%;
+ left: 70%;
+ animation: animate 6s linear infinite;
+}
+      
+.boxin div:nth-child(6) {
+ top: 11%;
+ left: 90%;
+ animation: animate 12s linear infinite;
+}
+      
+      
+@keyframes animate {
+      
+ 0% {
+  transform: scale(0) translateY(0) rotate(0);
+  opacity: 1;
+ }
+      
+ 100% {
+  transform: scale(1.3) translateY(-90px) rotate(360deg);
+  opacity: 0;
+ }
+      
+}
+         
+#atras {
+ width: 10%;
+ font-size: 43px;
+ color: #fff;
+ text-align: center;
+ z-index: 1;
+}
+
+.icb {
+ padding: 16px 18px;
+ border-radius: 50%;
+}
+
+.icb:hover {
+ background-color: rgba(232, 231, 231, 0.304);
+ cursor: pointer;
+}
+
+#atras:hover {
+ cursor: default;
+}
+
+#atras:focus .icb {
+ background-color: #ffffff;
+ color: rgb(51, 182, 206);
+ transition: .3s ease-out;
+ cursor: pointer;
+}
+      
+.Title-Admin {
+ font-size: 30px;
+ width: 100%;
+ position: absolute;
+ text-align: center;
+ z-index: 0;
+ margin: 0;
+ padding: 0;
+}
+
+.Cont-Dashboard {
+ width: 100%;
+ display: grid;
+ grid-template-columns: repeat(auto-fit, 335px);
+ grid-template-rows: 1fr;
+ grid-gap: 1.2em;
+ justify-content: center;
+ margin-bottom: 80px;
+}
+
+.Dashboard {
+ max-width: 335px;
+ display: flex; 
+ flex-flow: column;
+ border-radius: 8px;
+ box-shadow: 0 0 0.3em rgba(0,0,0,0.2);
+ cursor: pointer;
+ transition-property: box-shadow;
+ transition-duration: 0.3s;
+ height: 150px;
+}
+
+.Arribd {
+ width: 100%; 
+ height: 77%;
+ display: flex; 
+ justify-content: center; 
+ align-items: center;
+ padding: 0 8px;
+ color: #ffffff;
+}
+
+#ArribCliente {
+ background: #33b5e5; 
+ transition: all ease-out .3s;
+}
+
+#Clientes:hover #ArribCliente{
+ background: #ffffff;
+ color: #33b5e5; 
+ transition: all ease-out .3s;
+}
+
+#AbajCliente {
+ background: #0099CC;
+}
+
+
+#ArribEmpleado {
+ background: #09c68a;
+ transition: all ease-out .3s;
+}
+
+#Empleados:hover #ArribEmpleado{
+ background: #ffffff;
+ color: #09c68a; 
+ transition: all ease-out .3s;
+}
+
+#AbajEmpleado {
+ background: #089f6f;
+}
+
+
+#ArribProveedor {
+ background: #ffbb33;
+ transition: all ease-out .3s;
+}
+
+#Proveedores:hover #ArribProveedor{
+ background: #ffffff;
+ color: #ffbb33; 
+ transition: all ease-out .3s;
+}
+
+#AbajProveedor {
+ background: #FF8800;
+}
+
+
+#ArribPlatillo {
+ background: #ff4444;
+ transition: all ease-out .3s;
+}
+
+#Platillos:hover #ArribPlatillo{
+ background: #ffffff;
+ color: #ff4444; 
+ transition: all ease-out .3s;
+}
+
+#AbajPlatillo {
+ background: #de0202;
+}
+
+#ArribMenu {
+ background: #aa66cc;
+ transition: all ease-out .3s;
+}
+
+#Menus:hover #ArribMenu {
+ background: #ffffff;
+ color: #aa66cc;
+ transition: all ease-out .3s;
+}
+
+#AbajMenu {
+ background: #9933CC;
+}
+
+
+.Contd-aux {
+ font-weight: bold;
+}
+
+.Abajd {
+ width: 100%;
+ height: 23%;
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+ text-decoration: none;
+ color: #ffffff;
+ margin: 0;
+ padding: 0;
+}
+
+.Abajd:hover {
+ text-decoration: none;
+ color: #ffffff;
+}
+
+.Izqd {
+ width: 80%;
+ height: 100%;
+ display: flex; 
+ justify-content: flex-start; 
+ align-items: center;
+}
+
+.Derd {
+ width: 20%;
+ height: 100%;
+ display: flex; 
+ justify-content: flex-end;
+ align-items: center;
+}
+
+.Cantid {
+ font-size: 26px;
+}
+
+.Derd .ics {
+ font-size: 38px;
+}
+
+.Prin , .Sec {
+ width: 100%;
+ text-align: center;
+}
+
+.Title-Dash {
+ width: 100%;
+ text-align: center;
+ font-size: 28px;
+ color: #0f76b7;
+ margin-bottom: 60px;
+} 
+
+.Prin {
+ font-size: 22px;
+ color: #0f76b7;
+} 
+
+.Sec {
+ color: #0f76b7;
+ margin-bottom: 60px;
+}
+
+.Cont-Gral {
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 100px;
+}
+
+.Contenido {
+ width: 100%;
+ display: flex; 
+ align-items: center;
+ justify-content: center;
+
+}
+
+.mc {
+ width: 58% !important;
+ height: 500px !important;
+ display: flex !important; 
+ justify-content: center !important;
+ align-items: center !important;
+}
+
+.Stats {
+ width: 32% !important;
+ display: flex; 
+ justify-content: flex-end;
+ align-items: center;
+}
+
+.Cntst {
+ width: 440px;
+ height: 80px;
+ border: 1px solid #e8e7e7;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border-radius: 7px;
+ margin: 20px 0;
+ transition: all .2s ease-out;
+}
+
+.Cntst:hover {
+ border: 1px solid #008bbd;
+ cursor: pointer;
+ transition: all .2s ease-out; 
+}
+
+.Izq-st {
+ height: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.icav {
+ height: 100%;
+ display: flex;
+ align-items: center;
+ border: 1px solid #008bbd;
+ width: 65px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-right: 15px;
+ border-radius: 5px 0 0 5px;
+ transition: all .2s ease-out;
+}
+
+.Cntst:hover .icav {
+ background: #008bbd;
+ transition: all .2s ease-out;
+}
+
+.Cntst:hover .fas {
+ color: #ffffff;
+ transition: all .2s ease-out;
+}
+
+.icav .fas {
+ color: #008bbd;
+ transition: all .2s ease-out;
+}
+
+.mtr {
+ margin-right: 40px;
+ color: #0083d3;
+ font-weight: bold;
+}
+
+.mtxt {
+ font-weight: 600;
+ color: #828282;
+}
+
+.Botones {
+ width: 100%;
+ display: grid;
+ grid-template-columns: repeat(auto-fit, 200px);
+ grid-template-rows: 1fr;
+ grid-gap: 1.2em;
+ justify-content: center;
+ margin-bottom: 60px;
+}
+
+.al {
+ max-width: 200px;
+ display: flex; 
+ flex-flow: column;
+}
+
+.Bs {
+ border: 3px solid #01a0df;
+ height: 52px;
+ margin:0;
+ margin: 0 10px;
+ border-radius: 25px;
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+}
+
+.Bs:hover {
+ text-decoration: none;
+ color: #ffffff;
+ background-color: #01a0df;
+}
+
+.sop {
+ height: 52px !important;
+ padding: 0.75em 0em;
+ padding-left: 36%;
+ border-radius: 25px;
+ border: none;
+ outline: none !important;
+ border: 3px solid #efb50a;
+ color: #efb50a;
+ box-shadow: none;
+}
+
+.sop:focus {
+ color: #efb50a;
+ box-shadow: none;
+ border: none;
+ border: 3px solid #efb50a;
+}
+
+/* Banner */
+
+.Cont-Banner {
+ width: 100%;
+ height: 800px;
+ display: flex; 
+ justify-content: center;
+ position: relative;
+ margin-bottom: 40px;
+}
+
+.Cont-Aux {
+ width: 100%;
+ height: 600px;
+ display: flex; 
+ justify-content: center;
+ background: linear-gradient(100deg ,#01c8ff,#01a0cd,#00b6e8);
+ position: absolute;
+ bottom: 0;
+}
+
+.Banner-Izq {
+ width: 55%;
+ display: flex;
+ justify-content: center;
+}
+
+.Banner-Izq .Banner-im {
+ margin-top: -180px;
+}
+
+.Banner-Der {
+ width: 35%;
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+
+.Banner-Der .Texto .Titulo {
+ color: #ffffff;
+ margin-bottom: 40px;
+}
+
+.Banner-Der .Texto .Parrafo {
+ color: #ffffff;
+}
+
+/* Segundo Banner */
+
+.Cont-Bann {
+ width: 100%;
+ height: 600px;
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+ background: linear-gradient(100deg ,#01d378,#01ac62,#008e50,#01d378);
+ margin-bottom: 40px;
+}
+
+.Contn-Izq {
+ width: 35%;
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ height: 100%;
+}
+
+.Contn-Izq .Tex .Tit {
+ color: #ffffff;
+ margin-bottom: 40px;
+}
+
+.Contn-Izq .Tex .Parr {
+ color: #ffffff;
+}
+
+.Contn-Der { 
+ width: 55%;
+ display: flex;
+ justify-content: center;
+ height: 100%;
+}
+
+.Im-Banner {
+ width: 100%;
+ height: 100%;
+}
+
+
+/* Productos Vendidos*/
+
+.Cont-Produc {
+ width: 100%;
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+}
+
+.Graf-Izq {
+ width: 45%;
+ margin-right: 5px;
+ height: auto;
+}
+
+.Botones-Cont {
+ width: 100%;
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+}
+
+.Inputc {
+ height: 80px;
+ width: 300px;
+ border: 1px solid #e8e7e7;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-right: 15px;
+ border-radius: 7px;
+ transition: all .2s ease-out;
+ margin-top: 20px;
+}
+
+.Inputc:hover {
+ border: 1px solid #008bbd;
+ transition: all .2s ease-out; 
+} 
+
+.Antes {
+ width: 22%;
+ height: 100%;
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+ border: 1px solid #008bbd;
+ border-radius: 5px 0 0 5px;
+ transition: all .2s ease-out;
+}
+
+.Antes i {
+ color: #008bbd;
+}
+
+.Inputc:hover .Antes {
+ background: #008bbd;
+ transition: all .2s ease-out;
+}
+
+.Inputc:hover .Antes i {
+ color: #ffffff;
+ transition: all .2s ease-out;
+}
+
+.infec {
+ border: 0px;
+ outline: none;
+ padding-left: 8px;
+ padding-right: 8px;
+ height: 90%;
+ font-weight: 600;
+ color: #828282;
+ text-align: center;
+ width: 80%;
+}
+
+.Graf-Der {
+ width: 45%;
+ margin-left: 5px;
+ height: auto;
+}
+
+/* Canvas Productos */
+
+.Contenidob {
+ width: 100%;
+ height: 100%;
+}
+
+.chsa {
+
+ width: 100%; 
+ height: 100%;
+ margin-top: 80px;
+}
+
+@media screen and (max-width: 1470px) {
+    
+ .mc {
+  width: 62% !important;
+  height: 480px !important;
+ }
+
+ .Stats {
+  width: 36% !important;
+  justify-content: center;
+ }
+
+ .Cntst {
+  width: 290px;
+  height: 60px;
+ }
+
+ .icav .fas {
+  font-size: 12px;
+ }
+
+ .mtr {
+  font-size: 12px;
+ }
+
+ .mtxt {
+  font-size: 12px;
+ }
+
+ .Inputc {
+  height: 65px;
+  width: 230px;
+ }
+   
+ .Antes i {
+  font-size: 12px;
+ }
+ 
+ .infec {
+  font-size: 12px; 
+ }
+
+ .Banner-Izq .Banner-im {
+  margin-top: -180px;
+ }
+
+ .Banner-Der .Texto .Titulo {
+  font-size: 18px;
+ }
+
+ .Banner-Der .Texto .Parrafo {
+  font-size: 12px;
+ }
+
+ .Contn-Izq .Tex .Tit {
+  font-size: 18px;
+ }
+
+ .Contn-Izq .Tex .Parr {
+  font-size: 12px;
+ }
+
+}
+
+@media screen and (max-width: 1300px) {
+
+ .mc {
+  height: 460px !important;
+ }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+ .mc {
+  height: 440px !important;
+ }
+
+}
+
+@media screen and (max-width: 1100px) {
+
+ .mc {
+  height: 420px !important;
+ }
+
+}
+
+@media screen and (max-width: 1040px) {
+
+ .mc {
+  height: 400px !important;
+ }
+
+ .Graf-Izq {
+  width: 49%;
+ }
+
+ .Graf-Der {
+  width: 49%;
+ }
+
+}
+
+@media screen and (max-width: 940px) {
+
+ .mc {
+  height: 380px !important;
+ }
+
+ .Banner-Izq {
+  width: 59%;
+ }
+
+ .Banner-Der {
+  width: 39%;
+ }
+
+ .Contn-Der {
+  width: 59%;   
+ }
+
+ .Contn-Izq {
+  width: 39%;  
+ }
+
+}
+
+@media screen and (max-width:712px) {
+
+ .Cont-Dashboard {
+  grid-template-columns: repeat(auto-fit, 46vw);
+  grid-gap: 0.6em;
+  padding: 0.1em;
+ }
+
+ .Dashboard {
+  max-width: 46vw;
+ }
+
+ .Descd {
+  font-size: 12px;
+ }
+
+ .Cantid {
+  font-size: 22px;
+ }
+
+ .Abajd {
+  font-size: 12px;
+ }
+
+}
+
+@media screen and (max-width: 850px) {
+
+ .Contenido {
+  display: block; 
+ }
+
+ .Cntst {
+  width: 320px;
+  height: 60px;
+ }
+
+ .mc {
+  width: 100% !important;
+  height: 440px !important;
+ }
+
+ .Stats {
+  width: 100% !important;
+  justify-content: center;
+  margin-top: 25px;  
+ }
+
+ .Botones {
+  margin-bottom: 45px;
+ }
+
+ .Cont-Banner {
+  height: 600px;
+ }
+   
+ .Cont-Aux {
+  width: 100%;
+  height: 600px;
+  display: block;
+ }
+   
+ .Banner-Izq {
+  width: 100%;
+  height: 60%;
+  padding: 0 5px;
+ }
+   
+ .Banner-Izq .Banner-im {
+  width: 100%;
+  margin-top: 0;
+  height: 100%;
+ }
+   
+ .Banner-Der {
+  width: 100%;
+  height: 40%;
+  padding: 0 5px;
+ }
+
+ .Cont-Bann {
+  display: block;
+ }
+
+ .Contn-Izq {
+  width: 100%;
+  height: 45%;
+  padding: 0 5px;
+ }
+ 
+ .Contn-Der {
+  width: 100%;
+  height: 55%;
+  padding: 0 5px;
+ }
+
+ .Contn-Izq p, h3{
+  padding: 0; 
+  margin: 0;
+ }
+
+ .Cont-Produc {
+  display: block;
+  width: 100%;
+ }
+
+ .Graf-Izq {
+  width: 100%;  
+  margin: 0; 
+  height: 650px !important; 
+ }
+
+ .Graf-Der {
+  width: 100%; 
+  margin: 0;
+  height: 650px !important;  
+ }
+
+ .chsa {
+  margin-top: 40px;
+ }
+}
+
+@media screen and (max-width: 830px) {
+
+ .mc {
+  height: 420px !important;
+ }
+
+ .Graf-Izq {
+  height: 600px !important; 
+ }
+
+ .Graf-Der {
+  height: 600px !important;  
+ }
+
+}
+
+
+@media screen and (max-width: 730px) {
+
+ .Stats {
+  margin-top: 0px;  
+ }
+ 
+ .mc {
+  height: 400px !important;
+ }
+
+ .Graf-Izq {
+  height: 555px !important; 
+ }
+
+ .Graf-Der {
+  height: 555px !important;  
+ }
+
+}
+
+@media screen and (max-width:672px) {
+
+ .Botones {
+  grid-template-columns: repeat(auto-fit, 46vw);
+  grid-gap: 0.6em;
+  padding: 0.1em;
+ }
+
+ .al {
+  max-width: 46vw;
+  font-size: 13px;
+ }
+
+ .Graf-Izq {
+  height: 520px !important; 
+ }
+
+ .Graf-Der {
+  height: 520px !important;  
+ }
+}
+
+@media screen and (max-width: 690px) {
+
+ .Stats {
+  margin-top: 0px;  
+ }
+
+ .mc {
+  height: 340px !important;
+ }
+
+}
+
+
+@media screen and (max-width: 590px) {
+
+ .Stats {
+  margin-top: 0px;  
+ }
+
+ .mc {
+  height: 310px !important;
+ }
+
+ .Graf-Izq {
+  height: 490px !important; 
+ }
+
+ .Graf-Der {
+  height: 490px !important;  
+ }
+
+}
+
+
+@media screen and (max-width: 510px) {
+
+ .Stats {
+  margin-top: 0px;  
+ }
+
+ .mc {
+  height: 260px !important;
+ }
+
+ .Graf-Izq {
+  height: 450px !important; 
+ }
+
+ .Graf-Der {
+  height: 450px !important;  
+ }
+
+}
+
+@media screen and (max-width: 440px) {
+
+ .Stats {
+  margin-top: 15px;  
+ }
+
+ .mc {
+  height: 220px !important;
+ }
+
+ .Graf-Izq {
+  height: 410px !important; 
+ }
+
+ .Graf-Der {
+  height: 410px !important;  
+ }
+
+}
+
+@media screen and (max-width: 370px) {
+ 
+ .mc {
+  height: 190px !important;
+ }
+
+ .Graf-Izq {
+  height: 370px !important; 
+ }
+
+ .Graf-Der {
+  height: 370px !important;  
+ }
+
+}
+
+
+@media screen and (max-width:768px) {
+   
+ #atras {
+  font-size: 25px;
+  margin-left: 20px;
+ }
+      
+}
+ 
+@media screen and (max-width:529px) {    
+      
+ .Title-Admin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+ }
+      
+ .Container-Administracion .Box { 
+  margin: 0;
+  margin-bottom: 20px;
+ }
+      
+ .boxin div {
+  width:30px;
+  height: 30px;
+ }
+   
+}

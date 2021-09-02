@@ -1,0 +1,388 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+.hed {
+ height: 130px;
+ display: flex;
+ color: #fff;
+ justify-content: center;
+ align-items: center;
+ border-bottom: 0.5px solid rgb(236, 236, 236);
+ background: rgb(51, 182, 206);
+}
+
+.hed-cont {
+ display: flex;
+ justify-content: left;
+ align-items: center;
+ width:100%;
+ height: 80%;
+}
+
+.boxin div {
+ position: absolute;
+ width: 60px;
+ height: 60px;
+ background-color: transparent;
+ border: 6px solid rgba(255,255,255,0.8);
+ z-index: 2;
+}
+
+.boxin div:nth-child(1) {
+ top: 12%;
+ left: 8%;
+ animation: animate 10s linear infinite;
+}
+
+.boxin div:nth-child(2) {
+ top: 17%;
+ left: 20%;
+ animation: animate 7s linear infinite;
+}
+
+.boxin div:nth-child(3) {
+ top: 13%;
+ left: 35%;
+ animation: animate 9s linear infinite;
+}
+
+.boxin div:nth-child(4) {
+ top: 17%;
+ left: 50%;
+ animation: animate 5s linear infinite;
+}
+
+.boxin div:nth-child(5) {
+ top: 14%;
+ left: 70%;
+ animation: animate 6s linear infinite;
+}
+
+.boxin div:nth-child(6) {
+ top: 11%;
+ left: 90%;
+ animation: animate 12s linear infinite;
+}
+
+
+@keyframes animate {
+
+ 0% {
+  transform: scale(0) translateY(0) rotate(0);
+  opacity: 1;
+ }
+
+ 100% {
+  transform: scale(1.3) translateY(-90px) rotate(360deg);
+  opacity: 0;
+ }
+
+}
+   
+#atras {
+ width: 10%;
+ font-size: 43px;
+ color: #fff;
+ text-align: center;
+ z-index: 1;
+}
+
+.icb {
+ padding: 16px 18px;
+ border-radius: 50%;
+}
+
+.icb:hover {
+ background-color: rgba(232, 231, 231, 0.304);
+ cursor: pointer;
+}
+
+#atras:hover {
+ cursor: default;
+}
+
+#atras:focus .icb {
+ background-color: #ffffff;
+ color: rgb(51, 182, 206);
+ transition: .3s ease-out;
+ cursor: pointer;
+}
+
+.Title-Admin {
+ font-size: 30px;
+ width: 100%;
+ position: absolute;
+ text-align: center;
+ z-index: 0;
+ margin-bottom: 0;
+}
+
+.body {
+ display: flex;
+ justify-content: center;
+ min-height: 100vh;
+ align-items: center;
+}
+
+.Container-Administracion {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+
+.Container-Administracion .Box {
+ position: relative;
+ width: 350px;
+ height: 410px;
+ padding: 40px;
+ background: #fff;
+ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+ border-radius: 4px;
+ margin: 20px;
+ box-sizing: border-box;
+ overflow: hidden;
+ text-align: center;
+}
+
+.Container-Administracion .Box:before {
+ content: '';
+ width: 50%;
+ height: 100%;
+ position: absolute;
+ top: 0;
+ left: 0;
+ background: rgba(255, 255, 255, .1);
+ z-index: 2;
+ pointer-events: none;
+} 
+
+.Container-Administracion .Box .Icons {
+ position: relative;
+ width: 80px;
+ height: 80px;
+ color: #fff;
+ background: #000;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 0 auto;
+ border-radius: 50%;
+ font-size: 25px;
+ font-weight: 700px;
+ transition: 1s;
+ margin-bottom: 25px;
+}
+
+.Container-Administracion .Box:nth-child(1) .Icons {
+ box-shadow: 0 0 0 0 #e91e63;
+ background: #e91e63;
+}
+
+.Container-Administracion .Box:nth-child(1):hover .Icons {
+ box-shadow: 0 0 0 400px #e91e63;
+}
+
+.Container-Administracion .Box:nth-child(2) .Icons {
+ box-shadow: 0 0 0 0 #18a151;
+ background: #18a151;
+}
+   
+.Container-Administracion .Box:nth-child(2):hover .Icons {
+ box-shadow: 0 0 0 400px #18a151;
+}
+
+.Container-Administracion .Box:nth-child(3) .Icons {
+ box-shadow: 0 0 0 0 #1b7dcc;
+ background: #1b7dcc;
+}
+      
+.Container-Administracion .Box:nth-child(3):hover .Icons {
+ box-shadow: 0 0 0 400px #1b7dcc;
+}
+
+.Container-Administracion .Box:nth-child(4) .Icons {
+ box-shadow: 0 0 0 0 #ced114;
+ background: #ced114;
+}
+         
+.Container-Administracion .Box:nth-child(4):hover .Icons {
+ box-shadow: 0 0 0 400px #ced114;
+}
+
+.Container-Administracion .Box:nth-child(5) .Icons {
+ box-shadow: 0 0 0 0 #940599;
+ background: #940599;
+}
+            
+.Container-Administracion .Box:nth-child(5):hover .Icons {
+ box-shadow: 0 0 0 400px #940599;
+}
+
+.Container-Administracion .Box:nth-child(6) .Icons {
+ box-shadow: 0 0 0 0 #cc8512;
+ background: #cc8512;
+}
+               
+.Container-Administracion .Box:nth-child(6):hover .Icons {
+ box-shadow: 0 0 0 400px #cc8512;
+}
+
+.Container-Administracion .Box:nth-child(7) .Icons {
+ box-shadow: 0 0 0 0 #1aaec8;
+ background: #1aaec8;
+}
+               
+.Container-Administracion .Box:nth-child(7):hover .Icons {
+ box-shadow: 0 0 0 400px #1aaec8;
+}
+
+.Container-Administracion .Box:nth-child(8) .Icons {
+ box-shadow: 0 0 0 0 #06b89a;
+ background: #06b89a;
+}
+               
+.Container-Administracion .Box:nth-child(8):hover .Icons {
+ box-shadow: 0 0 0 400px #06b89a;
+}
+
+.Container-Administracion .Box:nth-child(9) .Icons {
+ box-shadow: 0 0 0 0 #db340b;
+ background: #db340b;
+}
+               
+.Container-Administracion .Box:nth-child(9):hover .Icons {
+ box-shadow: 0 0 0 400px #db340b;
+}
+
+.Container-Administracion .Box:nth-child(10) .Icons {
+ box-shadow: 0 0 0 0 #1aa508;
+ background: #1aa508;
+}
+               
+.Container-Administracion .Box:nth-child(10):hover .Icons {
+ box-shadow: 0 0 0 400px #1aa508;
+}
+
+.Container-Administracion .Box:nth-child(11) .Icons {
+ box-shadow: 0 0 0 0 #d845c4;
+ background: #d845c4;
+}
+               
+.Container-Administracion .Box:nth-child(11):hover .Icons {
+ box-shadow: 0 0 0 400px #d845c4;
+}
+
+.Container-Administracion .Box:nth-child(12) .Icons {
+ box-shadow: 0 0 0 0 #87580c;
+ background: #87580c;
+}
+               
+.Container-Administracion .Box:nth-child(12):hover .Icons {
+ box-shadow: 0 0 0 400px #87580c;
+}
+
+.Container-Administracion .Box:nth-child(13) .Icons {
+ box-shadow: 0 0 0 0 #C3114B;
+ background: #C3114B;
+}
+               
+.Container-Administracion .Box:nth-child(13):hover .Icons {
+ box-shadow: 0 0 0 400px #C3114B;
+}
+
+.Container-Administracion .Box:nth-child(14) .Icons {
+ box-shadow: 0 0 0 0 #cb5800;
+ background: #cb5800;
+}
+               
+.Container-Administracion .Box:nth-child(14):hover .Icons {
+ box-shadow: 0 0 0 400px #cb5800;
+}
+
+.Container-Administracion .Box .Content {
+ position: relative;
+ z-index: 1;
+ transition: 0.5s;
+}
+
+.Container-Administracion .Box:hover .Content {
+ color: #fff;
+}
+
+.Container-Administracion .Box .Content h3 {
+ font-size: 20px;
+ margin: 10px 0;
+ padding: 0;
+}
+
+.Container-Administracion .Box .Content p {
+ margin: 0;
+ padding: 0;
+ 
+ height: 130px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.aAdm {
+ display: inline-block;
+ padding: 10px 20px;
+ background: #fff;
+ border-radius: 4px;
+ text-decoration: none;
+ color: #000;
+ font-weight: 500;
+ margin-top: 20px;
+ box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+
+.aAdm:hover {
+ text-decoration: none;
+}
+
+
+@media screen and (max-width:768px) {
+   
+ #atras {
+  font-size: 25px;
+  margin-left: 20px;
+ }
+      
+}
+      
+@media screen and (max-width:529px) {
+         
+ .Title-Admin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+ }
+      
+ .Container-Administracion .Box { 
+  margin: 0;
+  margin-bottom: 20px;
+ }
+      
+ .boxin div {
+  width:30px;
+  height: 30px;
+ }
+   
+}
+
+
+@media screen and (max-width:360px) {
+
+ .Container-Administracion .Box{ 
+  width: 95%;
+ }
+         
+}
+

@@ -1,0 +1,38 @@
+#formReporte {
+ margin: 0;
+ padding: 0;
+}
+
+.itm {
+ width: 50%;
+}
+
+.close:focus {
+ outline: none !important;
+ border: none !important;
+}
+
+.hmg {
+ height: 45px !important;
+}
+
+.mot {
+ width: 100%; 
+ position: absolute;
+ margin-bottom: 0;
+ text-align: center;
+ margin-top: -5px;
+}
+
+.modal-header {
+ padding: 1.9em 0rem !important;
+ padding-right: 1rem !important;
+}
+
+@media screen and (max-width:790px) {
+
+ .itm {
+  width: 100%;
+ }
+
+}
