@@ -50,6 +50,10 @@ La base de datos se llama `dbrestaurant` y contiene múltiples tablas relacional
 - El código PHP sigue una **estructura procedural**, es decir, sin el uso de Programación Orientada a Objetos (POO), para facilitar la comprensión por parte del grupo.
 - Se recomienda utilizar un entorno como **XAMPP** o **Laragon** para ejecutarlo en local.
 
+## 📸 Video
+
+[Ver demostración del sistema](https://drive.google.com/file/d/1Ja79ZOOxTaaotMMjCRkuLrmncNmsiJeQ/view?usp=sharing)
+
 ---
 
 ## 📬 Contacto
