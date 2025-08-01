@@ -1,11 +1,11 @@
 <?php
 
-      //Definicion de Constantes 
+      //Definicion de Constantes
 
       define ('FOLDER_PATH','/dbRestaurant');
       define('HOST','localhost');
       define('USER','root');
-      define('PASSWORD','megustanlastetas');
+      define('PASSWORD','');
       define('DATABASE','dbrestaurant');
 
 ?>
