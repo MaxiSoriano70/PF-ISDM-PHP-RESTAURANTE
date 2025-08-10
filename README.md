@@ -1,6 +1,6 @@
 # 🍽️ Proyecto de Gestión de Restaurante
 
-Este proyecto es una aplicación web de gestión integral para restaurantes, desarrollada como parte de un trabajo grupal en el instituto. Permite a usuarios y administradores realizar tareas clave como gestión de pedidos, control de caja, inventario de insumos, administración del menú y más.
+Este proyecto es una aplicación web de gestión integral para restaurantes, desarrollada como parte de un trabajo desarrollado durante la carrera de **Técnico Analista de Sistemas en el Instituto del Milagro**. Permite a usuarios y administradores realizar tareas clave como gestión de pedidos, control de caja, inventario de insumos, administración del menú y más.
 
 ## 🚀 Tecnologías Utilizadas
 
